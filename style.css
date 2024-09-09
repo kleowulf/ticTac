@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  .grid {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+  }
+  .cell {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+    height: 150px;
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: #999;
+  }
+  
+  .center{
+    display: flex;
+    justify-content: center;
+  }
+  
+  img {
+    height: 100px;
+    border-radius: 25%;
+  }
+  
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
